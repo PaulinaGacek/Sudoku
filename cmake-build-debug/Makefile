@@ -140,6 +140,33 @@ SudokuQT_autogen\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT_autogen.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT_autogen.dir\build
 .PHONY : SudokuQT_autogen\fast
 
+SudokuGenerator.obj: SudokuGenerator.cpp.obj
+
+.PHONY : SudokuGenerator.obj
+
+# target to build an object file
+SudokuGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.obj
+.PHONY : SudokuGenerator.cpp.obj
+
+SudokuGenerator.i: SudokuGenerator.cpp.i
+
+.PHONY : SudokuGenerator.i
+
+# target to preprocess a source file
+SudokuGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.i
+.PHONY : SudokuGenerator.cpp.i
+
+SudokuGenerator.s: SudokuGenerator.cpp.s
+
+.PHONY : SudokuGenerator.s
+
+# target to generate assembly for a file
+SudokuGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.s
+.PHONY : SudokuGenerator.cpp.s
+
 SudokuQT_autogen\mocs_compilation.obj: SudokuQT_autogen\mocs_compilation.cpp.obj
 
 .PHONY : SudokuQT_autogen\mocs_compilation.obj
@@ -231,6 +258,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... SudokuQT_autogen
 	@echo ... SudokuQT
+	@echo ... SudokuGenerator.obj
+	@echo ... SudokuGenerator.i
+	@echo ... SudokuGenerator.s
 	@echo ... SudokuQT_autogen/mocs_compilation.obj
 	@echo ... SudokuQT_autogen/mocs_compilation.i
 	@echo ... SudokuQT_autogen/mocs_compilation.s

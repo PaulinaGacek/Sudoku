@@ -120,6 +120,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.cpp">
+			<Option target="SudokuQT"/>
+		</Unit>
+		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.h">
+			<Option target="SudokuQT"/>
+		</Unit>
 		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/mocs_compilation.cpp">
 			<Option target="SudokuQT"/>
 		</Unit>

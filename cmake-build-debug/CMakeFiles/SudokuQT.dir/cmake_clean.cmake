@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SudokuQT_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/SudokuQT_autogen.dir/ParseCache.txt"
   "SudokuQT_autogen"
+  "CMakeFiles/SudokuQT.dir/SudokuGenerator.cpp.obj"
   "CMakeFiles/SudokuQT.dir/SudokuQT_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/SudokuQT.dir/main.cpp.obj"
   "CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.obj"

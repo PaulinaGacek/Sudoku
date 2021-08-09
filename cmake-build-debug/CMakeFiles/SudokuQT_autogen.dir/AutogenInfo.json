@@ -189,6 +189,11 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.h",
+			"MU",
+			"EWIEGA46WW/moc_SudokuGenerator.cpp"
+		],
+		[
 			"C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.h",
 			"MU",
 			"EWIEGA46WW/moc_sudokuDisplay.cpp"
@@ -239,6 +244,7 @@
 	"SETTINGS_FILE" : "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.cpp", "MU" ],
 		[ "C:/Users/pauli/CLionProjects/SudokuQT/main.cpp", "MU" ],
 		[ "C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.cpp", "MU" ]
 	],
