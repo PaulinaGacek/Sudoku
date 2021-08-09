@@ -1,0 +1,130 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.27.29112 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.27.29112.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.27.29112 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.27.29112.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_7a418\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_7a418.dir\build.make /nologo -L                  CMakeFiles\cmTC_7a418.dir\build
+Building C object CMakeFiles/cmTC_7a418.dir/testCCompiler.c.obj
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @C:\Users\pauli\AppData\Local\Temp\nm7E86.tmp
+testCCompiler.c
+Linking C executable cmTC_7a418.exe
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7a418.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_7a418.dir\objects1.rsp @C:\Users\pauli\AppData\Local\Temp\nm7F24.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_f238c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_f238c.dir\build.make /nologo -L                  CMakeFiles\cmTC_f238c.dir\build
+Building C object CMakeFiles/cmTC_f238c.dir/CMakeCCompilerABI.c.obj
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @C:\Users\pauli\AppData\Local\Temp\nm82BC.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_f238c.exe
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f238c.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_f238c.dir\objects1.rsp @C:\Users\pauli\AppData\Local\Temp\nm834A.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_52554\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_52554.dir\build.make /nologo -L                  CMakeFiles\cmTC_52554.dir\build
+Building CXX object CMakeFiles/cmTC_52554.dir/testCXXCompiler.cxx.obj
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @C:\Users\pauli\AppData\Local\Temp\nm86A4.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_52554.exe
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_52554.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_52554.dir\objects1.rsp @C:\Users\pauli\AppData\Local\Temp\nm8722.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_11322\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_11322.dir\build.make /nologo -L                  CMakeFiles\cmTC_11322.dir\build
+Building CXX object CMakeFiles/cmTC_11322.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @C:\Users\pauli\AppData\Local\Temp\nm8A0F.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_11322.exe
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_11322.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_11322.dir\objects1.rsp @C:\Users\pauli\AppData\Local\Temp\nm8A9D.tmp
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_76b8a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_76b8a.dir\build.make /nologo -L                  CMakeFiles\cmTC_76b8a.dir\build
+Building CXX object CMakeFiles/cmTC_76b8a.dir/src.cxx.obj
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @C:\Users\pauli\AppData\Local\Temp\nm37C4.tmp
+src.cxx
+C:\Users\pauli\CLionProjects\SudokuQT\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx(17): warning C4312: "typ rzutowania": konwersja z "unsigned int" na "void *" jest większej wielkości
+Linking CXX executable cmTC_76b8a.exe
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_76b8a.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- "C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe" /nologo @CMakeFiles\cmTC_76b8a.dir\objects1.rsp @C:\Users\pauli\AppData\Local\Temp\nm3871.tmp
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+void test(volatile std::atomic<std::int64_t> &a)
+{
+    std::int64_t v = a.load(std::memory_order_acquire);
+    while (!a.compare_exchange_strong(v, v + 1,
+                                      std::memory_order_acq_rel,
+                                      std::memory_order_acquire)) {
+        v = a.exchange(v - 1);
+    }
+    a.store(v + 1, std::memory_order_release);
+}
+
+int main(int, char **)
+{
+    void *ptr = (void*)0xffffffc0; // any random pointer
+    test(*reinterpret_cast<std::atomic<std::int64_t> *>(ptr));
+    return 0;
+}

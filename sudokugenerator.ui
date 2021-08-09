@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <author/>
+    <comment/>
+    <exportmacro/>
+    <class>SudokuGenerator</class>
+    <widget class="QWidget" name="SudokuGenerator">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>400</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>SudokuGenerator</string>
+        </property>
+
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="pushButton">
+                <property name="geometry">
+                    <rect>
+                        <x>120</x>
+                        <y>50</y>
+                        <width>170</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Bookman Old Style</family>
+                        <pointsize>10</pointsize>
+                        <weight>70</weight>
+                        <bold>true</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Generate new sudoku</string>
+                </property>
+                <property name="iconSize">
+                    <size>
+                        <width>25</width>
+                        <height>25</height>
+                    </size>
+                </property>
+                <property name="autoDefault">
+                    <bool>true</bool>
+                </property>
+            </widget>
+        </widget>
+    </widget>
+    <pixmapfunction/>
+    <connections/>
+</ui>
