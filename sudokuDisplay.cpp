@@ -53,11 +53,27 @@ void SudokuDisplayer::display_grid() {
                 if(j%3==0)
                     gap_x += 3;
                 if(!display_solution)
-                    qp.drawImage(80 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.board[i][j]]);
+                    qp.drawImage(74 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.board[i][j]]);
                 else
-                    qp.drawImage(80 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.solved_board[i][j]]);
+                    qp.drawImage(74 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.solved_board[i][j]]);
             }
         }
+    QString hs = level[current_level];
+    QColor color;
+    qp.setPen(color.fromRgb(190,222,222));
+    QFont font("Courier", 11, QFont::DemiBold);
+    QFontMetrics fm(font);
+    qp.setFont(font);
+    size_t v = 0;
+    if(current_level==0)
+        v = 20;
+    else if(current_level==1){
+        font.setPointSize(9);
+        v = 29;
+    }
+    else if(current_level==3)
+        v = 5;
+    qp.drawText(size_t(387 - v), 275, hs);
 }
 
 void SudokuDisplayer::paintEvent(QPaintEvent *e) {
