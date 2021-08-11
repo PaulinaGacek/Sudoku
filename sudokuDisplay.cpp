@@ -10,6 +10,10 @@ SudokuDisplayer::SudokuDisplayer(QWidget *parent) :
                                   "QPushButton:enabled { background-color: rgb(190,222,222); }\n");
     ui->pushButtonSolve->setStyleSheet("QPushButton { background-color: grey; }\n"
                                   "QPushButton:enabled { background-color: rgb(190,222,222); }\n");
+    ui->pushButtonPlus->setStyleSheet("QPushButton { background-color: grey; }\n"
+                                       "QPushButton:enabled { background-color: rgb(190,222,222); }\n");
+    ui->pushButtonMinus->setStyleSheet("QPushButton { background-color: grey; }\n"
+                                       "QPushButton:enabled { background-color: rgb(190,222,222); }\n");
     load_images();
     timerId = startTimer(500);
     display_empty_grid();
@@ -52,10 +56,8 @@ void SudokuDisplayer::display_grid() {
                     qp.drawImage(80 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.board[i][j]]);
                 else
                     qp.drawImage(80 + j*30 + gap_x,130 + i*30 + gap_y,images[new_sudoku_grid.solved_board[i][j]]);
-
             }
         }
-    //this->repaint();
 }
 
 void SudokuDisplayer::paintEvent(QPaintEvent *e) {

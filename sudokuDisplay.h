@@ -34,8 +34,9 @@ private:
     bool button_pushed = false;
     bool display_solution = false;
     Ui::SudokuDisplayer *ui;
-    QImage blank,_1,_2,_3,_4,_5,_6,_7,_8,_9;
+    QImage blank,_1,_2,_3,_4,_5,_6,_7,_8,_9,plus,minus;
     QImage images[10] = {blank,_1,_2,_3,_4,_5,_6,_7,_8,_9};
+    const char* level[6] = {"Too easy", "Easy peasy", "Easy", "Medium", "Hard", "Hard as hell"};
     SudokuGenerator new_sudoku_grid;
     void load_images();
     void display_grid();

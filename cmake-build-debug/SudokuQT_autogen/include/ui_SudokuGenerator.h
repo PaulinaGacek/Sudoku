@@ -22,12 +22,14 @@ public:
     QWidget *centralwidget;
     QPushButton *pushButton;
     QPushButton *pushButtonSolve;
+    QPushButton *pushButtonPlus;
+    QPushButton *pushButtonMinus;
 
     void setupUi(QWidget *SudokuDisplayer)
     {
         if (SudokuDisplayer->objectName().isEmpty())
             SudokuDisplayer->setObjectName(QString::fromUtf8("SudokuDisplayer"));
-        SudokuDisplayer->resize(450, 520);
+        SudokuDisplayer->resize(460, 520);
         centralwidget = new QWidget(SudokuDisplayer);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
@@ -46,6 +48,26 @@ public:
         pushButtonSolve->setFont(font);
         pushButtonSolve->setIconSize(QSize(25, 25));
         pushButtonSolve->setAutoDefault(true);
+        pushButtonPlus = new QPushButton(SudokuDisplayer);
+        pushButtonPlus->setObjectName(QString::fromUtf8("pushButtonPlus"));
+        pushButtonPlus->setGeometry(QRect(390, 225, 30, 30));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Bookman Old Style")});
+        font1.setPointSize(20);
+        font1.setBold(true);
+        pushButtonPlus->setFont(font1);
+        pushButtonPlus->setIconSize(QSize(35, 35));
+        pushButtonPlus->setAutoDefault(true);
+        pushButtonMinus = new QPushButton(SudokuDisplayer);
+        pushButtonMinus->setObjectName(QString::fromUtf8("pushButtonMinus"));
+        pushButtonMinus->setGeometry(QRect(390, 285, 30, 30));
+        QFont font2;
+        font2.setFamilies({QString::fromUtf8("Bookman Old Style")});
+        font2.setPointSize(25);
+        font2.setBold(true);
+        pushButtonMinus->setFont(font2);
+        pushButtonMinus->setIconSize(QSize(35, 35));
+        pushButtonMinus->setAutoDefault(true);
 
         retranslateUi(SudokuDisplayer);
 
@@ -57,6 +79,8 @@ public:
         SudokuDisplayer->setWindowTitle(QCoreApplication::translate("SudokuDisplayer", "SudokuDisplayer", nullptr));
         pushButton->setText(QCoreApplication::translate("SudokuDisplayer", "Generate new sudoku", nullptr));
         pushButtonSolve->setText(QCoreApplication::translate("SudokuDisplayer", "Show solution", nullptr));
+        pushButtonPlus->setText(QCoreApplication::translate("SudokuDisplayer", "+", nullptr));
+        pushButtonMinus->setText(QCoreApplication::translate("SudokuDisplayer", "-", nullptr));
     } // retranslateUi
 
 };
