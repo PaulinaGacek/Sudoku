@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.h
+iostream
+-
+random
+-
+vector
+-
+set
+-
+
 C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/EWIEGA46WW/moc_sudokuDisplay.cpp
 memory
 -
@@ -29,6 +39,8 @@ sudokuDisplay.h
 C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.h
 
 C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.cpp
+iostream
+-
 sudokuDisplay.h
 C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.h
 ui_SudokuGenerator.h
@@ -41,6 +53,14 @@ QKeyEvent
 -
 QDialog
 -
+QPainter
+-
+thread
+-
+ctime
+-
+SudokuGenerator.h
+C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.h
 
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/QList
 qlist.h
@@ -1104,6 +1124,10 @@ C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QKeyEvent
 qevent.h
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qevent.h
 
+C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QPainter
+qpainter.h
+C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpainter.h
+
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QTransform
 qtransform.h
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtransform.h
@@ -1306,10 +1330,48 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
+C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpainter.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qrect.h
+-
+QtCore/qpoint.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpixmap.h
+-
+QtGui/qimage.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qpolygon.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qtransform.h
+-
+QtGui/qfontinfo.h
+-
+QtGui/qfontmetrics.h
+-
+
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpalette.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
+-
+QtGui/qcolor.h
+-
+QtGui/qbrush.h
+-
+
+C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpen.h
+QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
 -
@@ -1398,6 +1460,16 @@ QtCore/QSizeF
 QtGui/QTransform
 -
 QtCore/qnamespace.h
+-
+
+C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtextoption.h
+QtGui/qtguiglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qchar.h
+-
+QtCore/qmetatype.h
 -
 
 C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtgui-config.h

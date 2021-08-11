@@ -8,8 +8,9 @@
 class SudokuGenerator {
     constexpr static size_t size = 9;
     size_t missing_fields = 28;
-    std::vector<std::vector<size_t>> board= {};
 public:
+    std::vector<std::vector<size_t>> board = {};
+    std::vector<std::vector<size_t>> solved_board = {};
     SudokuGenerator(){
         generate_board();
     }

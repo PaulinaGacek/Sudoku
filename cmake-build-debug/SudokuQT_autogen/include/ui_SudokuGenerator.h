@@ -16,22 +16,23 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_SudokuGenerator
+class Ui_SudokuDisplayer
 {
 public:
     QWidget *centralwidget;
     QPushButton *pushButton;
+    QPushButton *pushButtonSolve;
 
-    void setupUi(QWidget *SudokuGenerator)
+    void setupUi(QWidget *SudokuDisplayer)
     {
-        if (SudokuGenerator->objectName().isEmpty())
-            SudokuGenerator->setObjectName(QString::fromUtf8("SudokuGenerator"));
-        SudokuGenerator->resize(400, 400);
-        centralwidget = new QWidget(SudokuGenerator);
+        if (SudokuDisplayer->objectName().isEmpty())
+            SudokuDisplayer->setObjectName(QString::fromUtf8("SudokuDisplayer"));
+        SudokuDisplayer->resize(450, 520);
+        centralwidget = new QWidget(SudokuDisplayer);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(120, 50, 170, 51));
+        pushButton->setGeometry(QRect(130, 50, 170, 30));
         QFont font;
         font.setFamilies({QString::fromUtf8("Bookman Old Style")});
         font.setPointSize(10);
@@ -39,22 +40,29 @@ public:
         pushButton->setFont(font);
         pushButton->setIconSize(QSize(25, 25));
         pushButton->setAutoDefault(true);
+        pushButtonSolve = new QPushButton(SudokuDisplayer);
+        pushButtonSolve->setObjectName(QString::fromUtf8("pushButtonSolve"));
+        pushButtonSolve->setGeometry(QRect(130, 450, 170, 30));
+        pushButtonSolve->setFont(font);
+        pushButtonSolve->setIconSize(QSize(25, 25));
+        pushButtonSolve->setAutoDefault(true);
 
-        retranslateUi(SudokuGenerator);
+        retranslateUi(SudokuDisplayer);
 
-        QMetaObject::connectSlotsByName(SudokuGenerator);
+        QMetaObject::connectSlotsByName(SudokuDisplayer);
     } // setupUi
 
-    void retranslateUi(QWidget *SudokuGenerator)
+    void retranslateUi(QWidget *SudokuDisplayer)
     {
-        SudokuGenerator->setWindowTitle(QCoreApplication::translate("SudokuGenerator", "SudokuGenerator", nullptr));
-        pushButton->setText(QCoreApplication::translate("SudokuGenerator", "Generate new sudoku", nullptr));
+        SudokuDisplayer->setWindowTitle(QCoreApplication::translate("SudokuDisplayer", "SudokuDisplayer", nullptr));
+        pushButton->setText(QCoreApplication::translate("SudokuDisplayer", "Generate new sudoku", nullptr));
+        pushButtonSolve->setText(QCoreApplication::translate("SudokuDisplayer", "Show solution", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class SudokuGenerator: public Ui_SudokuGenerator {};
+    class SudokuDisplayer: public Ui_SudokuDisplayer {};
 } // namespace Ui
 
 QT_END_NAMESPACE

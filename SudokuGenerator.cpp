@@ -45,6 +45,7 @@ void SudokuGenerator::fill_board() {
     }
     shuffle_rows();
     shuffle_columns();
+    solved_board = board;
 }
 void SudokuGenerator::shuffle_rows() {
     size_t nr_of_shuffles = generate_number_from_range(0,size);

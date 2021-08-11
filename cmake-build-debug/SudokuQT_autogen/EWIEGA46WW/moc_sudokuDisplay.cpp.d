@@ -1,4 +1,5 @@
 C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/EWIEGA46WW/moc_sudokuDisplay.cpp: C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.h \
+  C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/QList \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/QObject \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/QRect \
@@ -85,6 +86,7 @@ C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/EWIEGA4
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/qvarlengtharray.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtCore/qversiontagging.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QKeyEvent \
+  C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QPainter \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/QTransform \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qbitmap.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qbrush.h \
@@ -99,7 +101,9 @@ C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/EWIEGA4
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qinputdevice.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qkeysequence.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpaintdevice.h \
+  C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpainter.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpalette.h \
+  C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpen.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpixelformat.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpixmap.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qpointingdevice.h \
@@ -108,6 +112,7 @@ C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/EWIEGA4
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qrgb.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qrgba64.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qscreen.h \
+  C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtextoption.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtgui-config.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtguiglobal.h \
   C:/Users/pauli/QT/6.2.0/msvc2019_64/include/QtGui/qtransform.h \
