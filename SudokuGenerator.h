@@ -7,7 +7,8 @@
 
 class SudokuGenerator {
     constexpr static size_t size = 9;
-    size_t missing_fields = 28;
+    size_t missing_fields = 25;
+    const size_t missing_fields_on_level[6] = {15,22,28,33,39,45};
 public:
     std::vector<std::vector<size_t>> board = {};
     std::vector<std::vector<size_t>> solved_board = {};
@@ -18,10 +19,10 @@ public:
         set_new_missing_fields(missing_fields_);
         generate_board();
     }
-    void set_new_missing_fields(size_t new_m_f){
-        if(new_m_f > size*size)
+    void set_new_missing_fields(size_t new_lvl){
+        if(new_lvl > 5)
             throw std::invalid_argument("Number of missing fields cannot be higher than the number of fields");
-        missing_fields = new_m_f;
+        missing_fields = missing_fields_on_level[new_lvl];
     }
     size_t generate_number_from_range(size_t lower_bond, size_t upper_bond);
     void generate_board();

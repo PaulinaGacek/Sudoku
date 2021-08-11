@@ -75,7 +75,7 @@ void SudokuDisplayer::display_empty_grid() {
         for(int j = 0; j < 9; ++j){
             if(j%3==0)
                 gap_x += 3;
-            qp.drawImage(80 + j*30 + gap_x,130 + i*30 + gap_y,blank);
+            qp.drawImage(65 + j*30 + gap_x,130 + i*30 + gap_y,blank);
         }
     }
     repaint();
@@ -88,4 +88,26 @@ void SudokuDisplayer::timerEvent(QTimerEvent *e) {
 
 void SudokuDisplayer::on_pushButtonSolve_clicked() {
     display_solution = true;
+}
+
+void SudokuDisplayer::on_pushButtonPlus_clicked() {
+    if(current_level==5)
+        return;
+    else{
+        current_level++;
+        new_sudoku_grid.set_new_missing_fields(current_level);
+        new_sudoku_grid.generate_board();
+        std::cout << "Current level: " << current_level << std::endl;
+    }
+}
+
+void SudokuDisplayer::on_pushButtonMinus_clicked() {
+    if(current_level==0)
+        return;
+    else{
+        current_level--;
+        new_sudoku_grid.set_new_missing_fields(current_level);
+        new_sudoku_grid.generate_board();
+        std::cout << "Current level: " << current_level << std::endl;
+    }
 }
