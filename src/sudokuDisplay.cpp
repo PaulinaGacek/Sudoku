@@ -1,6 +1,6 @@
 #include <iostream>
 #include "../include/sudokuDisplay.h"
-#include "ui_SudokuGenerator.h"
+#include "../include/ui_SudokuGenerator.h"
 
 SudokuDisplayer::SudokuDisplayer(QWidget *parent) :
         QWidget(parent), ui(new Ui::SudokuDisplayer) {
@@ -30,16 +30,16 @@ void SudokuDisplayer::on_pushButton_clicked()
 }
 
 void SudokuDisplayer::load_images() {
-    images[0].load("Blank.jpg");
-    images[1].load("1.png");
-    images[2].load("2.png");
-    images[3].load("3.png");
-    images[4].load("4.png");
-    images[5].load("5.png");
-    images[6].load("6.png");
-    images[7].load("7.png");
-    images[8].load("8.png");
-    images[9].load("9.png");
+    images[0].load("../photos/Blank.jpg");
+    images[1].load("../photos/1.png");
+    images[2].load("../photos/2.png");
+    images[3].load("../photos/3.png");
+    images[4].load("../photos/4.png");
+    images[5].load("../photos/5.png");
+    images[6].load("../photos/6.png");
+    images[7].load("../photos/7.png");
+    images[8].load("../photos/8.png");
+    images[9].load("../photos/9.png");
 }
 
 void SudokuDisplayer::display_grid() {

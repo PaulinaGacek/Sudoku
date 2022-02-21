@@ -1,6 +1,6 @@
 #include <QApplication>
 #include <QPushButton>
-#include "sudokuDisplay.h"
+#include "include/sudokuDisplay.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
