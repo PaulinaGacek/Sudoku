@@ -1,4 +1,5 @@
-#include "SudokuGenerator.h"
+#include "../include/SudokuGenerator.h"
+
 size_t SudokuGenerator::generate_number_from_range(size_t lower_bond, size_t upper_bond) {
     std::random_device dev;
     std::mt19937 engine3(dev());

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sudokuDisplay.h"
+#include "../include/sudokuDisplay.h"
 #include "ui_SudokuGenerator.h"
 
 SudokuDisplayer::SudokuDisplayer(QWidget *parent) :
