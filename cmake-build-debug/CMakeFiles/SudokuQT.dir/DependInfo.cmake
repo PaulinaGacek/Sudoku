@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.cpp" "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir/SudokuGenerator.cpp.obj"
   "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/SudokuQT_autogen/mocs_compilation.cpp" "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir/SudokuQT_autogen/mocs_compilation.cpp.obj"
   "C:/Users/pauli/CLionProjects/SudokuQT/main.cpp" "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir/main.cpp.obj"
-  "C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.cpp" "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.obj"
+  "C:/Users/pauli/CLionProjects/SudokuQT/src/sudokuDisplay.cpp" "C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir/src/sudokuDisplay.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

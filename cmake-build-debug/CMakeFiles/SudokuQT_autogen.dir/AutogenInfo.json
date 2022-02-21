@@ -246,7 +246,7 @@
 	[
 		[ "C:/Users/pauli/CLionProjects/SudokuQT/SudokuGenerator.cpp", "MU" ],
 		[ "C:/Users/pauli/CLionProjects/SudokuQT/main.cpp", "MU" ],
-		[ "C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.cpp", "MU" ]
+		[ "C:/Users/pauli/CLionProjects/SudokuQT/src/sudokuDisplay.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SudokuQT.dir/SudokuGenerator.cpp.obj"
   "CMakeFiles/SudokuQT.dir/SudokuQT_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/SudokuQT.dir/main.cpp.obj"
-  "CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.obj"
+  "CMakeFiles/SudokuQT.dir/src/sudokuDisplay.cpp.obj"
   "SudokuQT.exe"
   "SudokuQT.exe.manifest"
   "SudokuQT.lib"

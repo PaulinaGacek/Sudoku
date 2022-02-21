@@ -132,7 +132,7 @@
 		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/main.cpp">
 			<Option target="SudokuQT"/>
 		</Unit>
-		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.cpp">
+		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/src/sudokuDisplay.cpp">
 			<Option target="SudokuQT"/>
 		</Unit>
 		<Unit filename="C:/Users/pauli/CLionProjects/SudokuQT/sudokuDisplay.h">

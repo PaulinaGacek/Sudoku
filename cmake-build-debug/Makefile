@@ -221,32 +221,32 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-sudokuDisplay.obj: sudokuDisplay.cpp.obj
+src\sudokuDisplay.obj: src\sudokuDisplay.cpp.obj
 
-.PHONY : sudokuDisplay.obj
+.PHONY : src\sudokuDisplay.obj
 
 # target to build an object file
-sudokuDisplay.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj
-.PHONY : sudokuDisplay.cpp.obj
+src\sudokuDisplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj
+.PHONY : src\sudokuDisplay.cpp.obj
 
-sudokuDisplay.i: sudokuDisplay.cpp.i
+src\sudokuDisplay.i: src\sudokuDisplay.cpp.i
 
-.PHONY : sudokuDisplay.i
+.PHONY : src\sudokuDisplay.i
 
 # target to preprocess a source file
-sudokuDisplay.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.i
-.PHONY : sudokuDisplay.cpp.i
+src\sudokuDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.i
+.PHONY : src\sudokuDisplay.cpp.i
 
-sudokuDisplay.s: sudokuDisplay.cpp.s
+src\sudokuDisplay.s: src\sudokuDisplay.cpp.s
 
-.PHONY : sudokuDisplay.s
+.PHONY : src\sudokuDisplay.s
 
 # target to generate assembly for a file
-sudokuDisplay.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.s
-.PHONY : sudokuDisplay.cpp.s
+src\sudokuDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SudokuQT.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.s
+.PHONY : src\sudokuDisplay.cpp.s
 
 # Help Target
 help:
@@ -267,9 +267,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sudokuDisplay.obj
-	@echo ... sudokuDisplay.i
-	@echo ... sudokuDisplay.s
+	@echo ... src/sudokuDisplay.obj
+	@echo ... src/sudokuDisplay.i
+	@echo ... src/sudokuDisplay.s
 .PHONY : help
 
 

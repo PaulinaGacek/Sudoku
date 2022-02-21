@@ -99,23 +99,23 @@ CMakeFiles\SudokuQT.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SudokuQT.dir\main.cpp.s /c C:\Users\pauli\CLionProjects\SudokuQT\main.cpp
 <<
 
-CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj: CMakeFiles\SudokuQT.dir\flags.make
-CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj: ..\sudokuDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pauli\CLionProjects\SudokuQT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.obj"
+CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj: CMakeFiles\SudokuQT.dir\flags.make
+CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj: ..\src\sudokuDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\pauli\CLionProjects\SudokuQT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SudokuQT.dir/src/sudokuDisplay.cpp.obj"
 	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj /FdCMakeFiles\SudokuQT.dir\ /FS -c C:\Users\pauli\CLionProjects\SudokuQT\sudokuDisplay.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj /FdCMakeFiles\SudokuQT.dir\ /FS -c C:\Users\pauli\CLionProjects\SudokuQT\src\sudokuDisplay.cpp
 <<
 
-CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.i"
-	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" > CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pauli\CLionProjects\SudokuQT\sudokuDisplay.cpp
+CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SudokuQT.dir/src/sudokuDisplay.cpp.i"
+	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" > CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pauli\CLionProjects\SudokuQT\src\sudokuDisplay.cpp
 <<
 
-CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuQT.dir/sudokuDisplay.cpp.s"
+CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SudokuQT.dir/src/sudokuDisplay.cpp.s"
 	"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.s /c C:\Users\pauli\CLionProjects\SudokuQT\sudokuDisplay.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.s /c C:\Users\pauli\CLionProjects\SudokuQT\src\sudokuDisplay.cpp
 <<
 
 CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.obj: CMakeFiles\SudokuQT.dir\flags.make
@@ -141,7 +141,7 @@ CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.s: cmake_force
 SudokuQT_OBJECTS = \
 "CMakeFiles\SudokuQT.dir\SudokuQT_autogen\mocs_compilation.cpp.obj" \
 "CMakeFiles\SudokuQT.dir\main.cpp.obj" \
-"CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj" \
+"CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj" \
 "CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.obj"
 
 # External object files for target SudokuQT
@@ -149,7 +149,7 @@ SudokuQT_EXTERNAL_OBJECTS =
 
 SudokuQT.exe: CMakeFiles\SudokuQT.dir\SudokuQT_autogen\mocs_compilation.cpp.obj
 SudokuQT.exe: CMakeFiles\SudokuQT.dir\main.cpp.obj
-SudokuQT.exe: CMakeFiles\SudokuQT.dir\sudokuDisplay.cpp.obj
+SudokuQT.exe: CMakeFiles\SudokuQT.dir\src\sudokuDisplay.cpp.obj
 SudokuQT.exe: CMakeFiles\SudokuQT.dir\SudokuGenerator.cpp.obj
 SudokuQT.exe: CMakeFiles\SudokuQT.dir\build.make
 SudokuQT.exe: C:\Users\pauli\QT\6.2.0\msvc2019_64\lib\Qt6Widgetsd.lib
