@@ -3,23 +3,23 @@ The application generates sudoku grid to be solved by user.
 
 User can choose the level:
 
-:gem: Too easy
+   :gem: Too easy
 
-:gem: Easy peasy
+   :gem: Easy peasy
 
-:gem: Easy
+   :gem: Easy
 
-:gem: Medium
+   :gem: Medium
 
-:gem: Hard 
+   :gem: Hard 
 
-:gem: Expert
+   :gem: Expert
 
 which determines how many fields on the sudoku board are blank.
 
 User can see solved sudoku whenever they want by clicking SOLVE button. 
 
-<img src="https://github.com/PaulinaGacek/Sudoku/blob/master/photos/Sudoku.jpg" width="250" height="260">
+<img src="https://github.com/PaulinaGacek/Sudoku/blob/master/photos/Sudoku.jpg" width="400" height="440">
 
 ### How to run application ###
 1. Make sure You have QT 6 installed on your PC
