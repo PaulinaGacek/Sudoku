@@ -1,4 +1,0 @@
-C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT.dir
-C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/pauli/CLionProjects/SudokuQT/cmake-build-debug/CMakeFiles/SudokuQT_autogen.dir
